@@ -69,6 +69,8 @@
    ![image](https://github.com/Rayan-1/testautoVV/assets/69490855/4a986de6-a3a9-42b3-b846-a772bc03ee24)
    e rode o comando "pytest" para fazer os testes automatizado com a ferramenta pyteste
 
+   lembrando que no windows vc deve ta eum uma IDE, no linux pode ser por linha de comando mesmo
+
 
 
 
