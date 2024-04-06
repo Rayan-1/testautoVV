@@ -48,7 +48,8 @@
 
      se sim, agora vamos instalar o principal, que no caso e a ferramenta do Pytest
      Use o Comando:
-       pip install pytest
+       pip install pytest eo pip install datetime
+       
         Linux
        ![image](https://github.com/Rayan-1/testautoVV/assets/69490855/0eb9bc37-1386-4971-be68-421b4134466d)
 
