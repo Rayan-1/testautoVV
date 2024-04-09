@@ -2,13 +2,13 @@ import datetime
 import pytz  
 
 class Account:
- def __init__(self, initial_balance=0, transaction_limit_hour=21): # agora iremos mostrar os testes automatizados executando de foema automatizada
+ def __init__(self, initial_balance=0, transaction_limit_hour=9): 
         self.balance = initial_balance
         self.transaction_limit_hour = transaction_limit_hour
 
  def bank_policy(self): # regra de negocio
     print("Verifying bank policy...")
-    now = datetime.datetime.now(pytz.timezone('America/Sao_Paulo')) # 19:50
+    now = datetime.datetime.now(pytz.timezone('America/Sao_Paulo')) # hora atual 20:08
     if now.hour >= self.transaction_limit_hour:
         raise ValueError("As transações só podem ser realizadas até as {}:00".format(self.transaction_limit_hour))
 
