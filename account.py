@@ -2,7 +2,7 @@ import datetime
 import pytz  
 
 class Account:
- def __init__(self, initial_balance=0, transaction_limit_hour=20): 
+ def __init__(self, initial_balance=0, transaction_limit_hour=22): 
         self.balance = initial_balance
         self.transaction_limit_hour = transaction_limit_hour
 
